@@ -1,12 +1,25 @@
-x = 0
-y = floor(sqrt(n))
-sum = y * y
+Step 1. Start
 
-while x <= y
-    if sum < n
-        sum += x++ + x
-    else if sum > n
-        sum -= y-- + y
-    else
-        print(x, y)
-        sum += 2 * (++x - y--)
+Step 2. Read number n
+
+Step 3. Initialize
+
+       sum=0, i=1
+
+Step 4. Repeat step 4 through 6 until i<=n
+
+Step 5. Calculate
+
+        sum=sum+(i*i)
+
+Step 6. increment i
+
+         i=i+1
+
+Step 7. print the sum of square  "sum"
+
+Step 8. stop
+
+[end of loop step 4]
+
+[end of SumOfSquare procedure] 
