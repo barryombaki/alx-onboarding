@@ -1,1 +1,12 @@
+x = 0
+y = floor(sqrt(n))
+sum = y * y
 
+while x <= y
+    if sum < n
+        sum += x++ + x
+    else if sum > n
+        sum -= y-- + y
+    else
+        print(x, y)
+        sum += 2 * (++x - y--)
